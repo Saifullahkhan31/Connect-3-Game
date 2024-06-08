@@ -15,8 +15,26 @@ Welcome to the Connect 3 Game! This project is a simple console-based implementa
 2. **Take turns**: Players take turns to enter the column number where they want to drop their token.
 3. **Win the game**: The first player to align three tokens vertically, horizontally, or diagonally wins the game.
 
-# Installation
-Soon.
+## Installation
+
+To run this game on your local machine, follow these steps:
+
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/yourusername/connect3-game.git
+    ```
+2. **Navigate to the project directory**:
+    ```sh
+    cd connect3-game
+    ```
+3. **Compile the game**:
+    ```sh
+    gcc connect3.c -o connect3
+    ```
+4. **Run the game**:
+    ```sh
+    ./connect3
+    ```
 
 # File Structure
 **connect3.c:** The main source code file for the Connect 3 Game.
